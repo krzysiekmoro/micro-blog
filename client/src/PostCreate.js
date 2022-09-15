@@ -18,6 +18,7 @@ const PostCreate = () => {
         <div className="form-group">
           <label className="form-label">Title</label>
           <input
+            style={{ margin: "10px 0" }}
             value={title}
             onChange={(e) => setTitle(e.target.value)}
             className="form-control"
